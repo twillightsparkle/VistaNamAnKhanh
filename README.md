@@ -105,7 +105,7 @@ To customize the content:
 ## Contact Information
 
 - **Hotline**: 0984 704 988
-- **Email**: nothingyet@gmail.com
+- **Email**: trangbinhduong2017@gmail.com
 - **Project**: Khu Đô Thị Nam An Khánh Sudico
 
 ---
