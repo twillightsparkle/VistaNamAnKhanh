@@ -104,10 +104,11 @@ To customize the content:
 
 ## Contact Information
 
-- **Hotline**: 0942.993.886
-- **Email**: quanlyduanmienbac@gmail.com
+- **Hotline**: 0984 704 988
+- **Email**: nothingyet@gmail.com
 - **Project**: Khu Đô Thị Nam An Khánh Sudico
 
 ---
+Remember to change the image path to match the repo name
 
 Built with ❤️ using Next.js and Tailwind CSS
