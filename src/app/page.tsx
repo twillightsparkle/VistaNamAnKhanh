@@ -238,7 +238,7 @@ export default function Home() {
           <div className="flex flex-col items-center">
             <span className="text-lg font-semibold mb-1">Hotline tư vấn</span>
             <a href="tel:0942993886" className="text-2xl font-bold text-green-700 hover:underline">0984 704 988</a>
-            <span className="text-sm text-gray-600 mt-1">Email: emailcuame@gmail.com</span>
+            <span className="text-sm text-gray-600 mt-1">Email: trangbinhduong2017@gmail.com</span>
           </div>
         </div>
       </section>

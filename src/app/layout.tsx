@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Khu Đô Thị Nam An Khánh - Sudico | Biệt thự, Shophouse, Liền kề",
-  description: "Khu đô thị Nam An Khánh - Miền đất xanh giữa lòng phố thị. Biệt thự, shophouse, liền kề cao cấp tại cửa ngõ phía Tây Hà Nội. Hotline: 0942.993.886",
+  description: "Khu đô thị Nam An Khánh - Miền đất xanh giữa lòng phố thị. Biệt thự, shophouse, liền kề cao cấp tại cửa ngõ phía Tây Hà Nội. Hotline: 0984 704 988",
   keywords: "nam an khanh, sudico, biet thu, shophouse, lien ke, ha noi, bds",
   openGraph: {
     title: "Khu Đô Thị Nam An Khánh - Sudico",
