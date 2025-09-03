@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
     <div className="bg-white text-gray-900 font-sans">
@@ -36,7 +34,7 @@ export default function Home() {
 
         <div className="mb-8">
           <h3 className="text-xl font-semibold mb-3 text-blue-700">Thiết kế & Quy mô</h3>
-          <p className="text-gray-700 mb-4">Cảnh quan theo mô hình gồm các cung đường rộng uốn lượn ôm lấy hồ (có 3 hồ lớn nhỏ) và rất nhiều khoảng "xanh" trong khu đô thị với mật độ xây dựng thấp. Từng biệt thự được thiết kế theo phong cách Địa Trung Hải trẻ trung, ấn tượng.</p>
+          <p className="text-gray-700 mb-4">Cảnh quan theo mô hình gồm các cung đường rộng uốn lượn ôm lấy hồ (có 3 hồ lớn nhỏ) và rất nhiều khoảng &ldquo;xanh&rdquo; trong khu đô thị với mật độ xây dựng thấp. Từng biệt thự được thiết kế theo phong cách Địa Trung Hải trẻ trung, ấn tượng.</p>
           
           <p className="text-gray-700 mb-4">Khu đô thị Nam An Khánh có tổng cộng 1793 căn nhà ở thấp tầng và các căn hộ chung cư cao cấp đáp ứng đầy đủ, đa dạng nhu cầu sử dụng của mỗi gia đình. Trong đó có:</p>
           
