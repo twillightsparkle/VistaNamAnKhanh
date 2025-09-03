@@ -69,7 +69,7 @@ export default function Home() {
             </ul>
           </div>
           <div>
-            <img src="/vitrikhudothi.png" alt="Vị trí Khu đô thị Nam An Khánh" className="w-full rounded-lg shadow-lg" />
+            <img src="/bietthu/vitrikhudothi.png" alt="Vị trí Khu đô thị Nam An Khánh" className="w-full rounded-lg shadow-lg" />
             <p className="text-center text-gray-600 italic mt-2">Vị trí Khu đô thị Nam An Khánh</p>
           </div>
         </div>
