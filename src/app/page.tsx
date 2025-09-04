@@ -3,32 +3,66 @@ export default function Home() {
     <div className="bg-white text-gray-900 font-sans">
       <header className="w-full bg-gradient-to-r from-green-700 to-blue-700 text-white py-8 shadow-lg">
         <div className="max-w-5xl mx-auto px-4 flex flex-col items-center">
-          <h1 className="text-3xl sm:text-5xl font-bold mb-2 text-center">Khu Đô Thị Nam An Khánh (Nam An Khánh Sudico)</h1>
+            <h1 className="text-3xl sm:text-5xl font-bold mb-2 text-center">
+            Khu đô thị Nam An Khánh
+            <br />
+            <span className="text-xl sm:text-2xl font-normal">
+              ( Vista Nam An Khánh – Công ty cổ phần SJ Group )
+            </span>
+            </h1>
         </div>
       </header>
 
       {/* Tổng quan */}
       <section className="max-w-5xl mx-auto px-4 py-10">
-        <h2 className="text-3xl font-bold mb-6 text-green-700">Tổng quan Khu đô thị Nam An Khánh (Nam An Khánh Sudico)</h2>
+        <h2 className="text-3xl font-bold mb-6 text-green-700">Tổng quan Vista Nam An Khánh Hà Nội</h2>
         
         <div className="mb-8">
-          <img src="https://bietthulienke.info/pl/img/59/tong-the-du-an-nam-an-khanh.jpg" alt="Tổng thể dự án Nam An Khánh" className="w-full rounded-lg shadow-lg mb-4" />
-          <p className="text-center text-gray-600 italic">Mô hình tổng thể Khu đô thị Nam An Khánh (Nam An Khánh Sudico)</p>
+          <img src="/bietthu/tongquankdt.jpg" alt="Tổng thể dự án Nam An Khánh" className="w-full rounded-lg shadow-lg mb-4" />
+          <p className="text-center text-gray-600 italic">Mô hình tổng thể Khu đô thị Nam An Khánh (Vista Nam An Khánh)</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-          <div>
-            <h3 className="text-xl font-semibold mb-3 text-blue-700">Thông tin cơ bản</h3>
-            <ul className="space-y-2">
-              <li><strong>Chủ đầu tư:</strong> Công ty cổ phần đầu tư phát triển đô thị và khu công nghiệp Sông Đà (Sudico)</li>
-              <li><strong>Khởi công:</strong> Năm 2008</li>
-              <li><strong>Đơn vị thiết kế:</strong> Strategic Think Tank, LLC (STT) 260 Architects</li>
-              <li><strong>Quy mô:</strong> Khu đô thị Nam An Khánh rộng 234,4 ha</li>
+        <div className="mb-8 bg-yellow-50 rounded-lg p-6 shadow text-gray-900">
+          <h3 className="text-2xl font-bold text-red-600 mb-4 text-center">💥 THÔNG TIN DỰ ÁN VISTA NAM AN KHÁNH 💥</h3>
+          <ul className="space-y-2 text-lg">
+            <li><strong>Chủ đầu tư:</strong> Công ty cổ phần SJ Group</li>
+            <li><strong>Vị trí:</strong> xã An Khánh, huyện Hoài Đức, TP. Hà Nội</li>
+            <li><strong>Quy mô:</strong> 288,8 ha gồm 8 Phân khu:</li>
+            <ul className="list-decimal pl-6 space-y-1">
+              <li>La Vista – Nam An Khanh Ha Noi</li>
+              <li>Vista Serena – Nam An Khanh Ha Noi</li>
+              <li>Vista Lago – Nam An Khanh Ha Noi</li>
+              <li>Vista Palma – Nam An Khanh Ha Noi</li>
+              <li>Vista Valley – Nam An Khanh Ha Noi</li>
+              <li>Vista Sky Lakeview – Nam An Khanh Ha Noi</li>
+              <li>Vista Complex – Nam An Khanh Ha Noi</li>
+              <li>Vista Garden – Nam An Khanh Ha Noi</li>
             </ul>
-          </div>
-          <div>
-            <h3 className="text-xl font-semibold mb-3 text-blue-700">Vị trí</h3>
-            <p className="text-gray-700">Khu đô thị Nam An Khánh Km10 nằm ở phía Tây thủ đô Hà Nội, thuộc địa bàn hai xã An Khánh và An Thượng, huyện Hoài Đức, TP.Hà Nội. Giáp Đại Lộ Thăng Long và cách trung tâm Hội Nghị Quốc Gia 7km.</p>
+            <li className="mt-2"><strong>Mở bán đợt 2 gồm 2 phân khu:</strong></li>
+            <ul className="list-disc pl-6 space-y-1">
+              <li>Phân khu Vista Serena và Vista Palma: 241 căn nhà thấp tầng</li>
+              <li>Phân khu Vista Serena dự kiến bàn giao 160 căn vào tháng 9/2026</li>
+              <li>Phân khu Vista Palma đã sẵn sàng bàn giao</li>
+            </ul>
+            <li className="mt-2"><strong>Cơ cấu sản phẩm phân khu:</strong> Biệt thự đơn lập, biệt thự song lập, nhà liên kề có sân vườn, shophouse.</li>
+            <li><strong>Mật độ xây dựng:</strong> 30-40%</li>
+          </ul>
+          <div className="mt-8 space-y-6">
+            <div className="w-full">
+              <img src="/bietthu/tongmatbangANK.jpg" alt="Tổng mặt bằng Nam An Khánh" className="w-full rounded-lg shadow-lg" />
+              <p className="text-center text-gray-600 italic mt-3">Tổng mặt bằng Khu đô thị Nam An Khánh</p>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <img src="/bietthu/tongmatbangPalma.jpg" alt="Tổng mặt bằng Vista Palma" className="w-full rounded-lg shadow-lg" />
+                <p className="text-center text-gray-600 italic mt-3">Tổng mặt bằng Vista Palma</p>
+              </div>
+              <div>
+                <img src="/bietthu/tongmatbangSerena.jpg" alt="Tổng mặt bằng Vista Serena" className="w-full rounded-lg shadow-lg" />
+                <p className="text-center text-gray-600 italic mt-3">Tổng mặt bằng Vista Serena</p>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -48,7 +82,7 @@ export default function Home() {
 
         <div className="mb-8">
           <img src="https://bietthulienke.info/pl/img/26/Tong-quan-nam-an-khanh-2.jpg" alt="Phối cảnh tổng thể" className="w-full rounded-lg shadow-lg mb-4" />
-          <p className="text-center text-gray-600 italic">Phối cảnh tổng thể Khu đô thị Nam An Khánh Sudico 3D (234ha)</p>
+          <p className="text-center text-gray-600 italic">Phối cảnh tổng thể Khu đô thị Nam An Khánh 3D (234ha)</p>
         </div>
       </section>
 
@@ -60,17 +94,32 @@ export default function Home() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
           <div>
-            <h3 className="text-xl font-semibold mb-3 text-green-700">Ranh giới dự án</h3>
-            <ul className="list-disc pl-6 space-y-2 text-gray-700">
-              <li><strong>Phía Bắc:</strong> Giáp Đại lộ Thăng Long</li>
-              <li><strong>Phía Đông:</strong> Giáp đường Lê Trọng Tấn kéo dài</li>
-              <li><strong>Phía Nam:</strong> Giáp đường tỉnh lộ 72 và KDC thôn Ngãi Cầu</li>
-              <li><strong>Phía Tây:</strong> Giáp đường liên khu 8 rộng 60m</li>
-            </ul>
+        <h3 className="text-xl font-semibold mb-3 text-green-700">Ranh giới dự án</h3>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700">
+          <li><strong>Phía Bắc:</strong> Giáp Đại lộ Thăng Long</li>
+          <li><strong>Phía Đông:</strong> Giáp đường Lê Trọng Tấn kéo dài</li>
+          <li><strong>Phía Nam:</strong> Giáp đường tỉnh lộ 72 và KDC thôn Ngãi Cầu</li>
+          <li><strong>Phía Tây:</strong> Giáp đường liên khu 8 rộng 60m</li>
+        </ul>
+          </div>
+        </div>
+
+        <div className="space-y-6 mb-8">
+          <div>
+            <img src="/bietthu/bandoketnoi.jpg" alt="Bản đồ kết nối Nam An Khánh" className="w-full rounded-lg shadow-lg" />
+            <p className="text-center text-gray-600 italic mt-2">Bản đồ kết nối giao thông Nam An Khánh</p>
           </div>
           <div>
-            <img src="/bietthu/vitrikhudothi.png" alt="Vị trí Khu đô thị Nam An Khánh" className="w-full rounded-lg shadow-lg" />
-            <p className="text-center text-gray-600 italic mt-2">Vị trí Khu đô thị Nam An Khánh</p>
+            <img src="/bietthu/huongketnoigt.jpg" alt="Hướng dẫn kết nối giao thông" className="w-full rounded-lg shadow-lg" />
+            <p className="text-center text-gray-600 italic mt-2">Hướng dẫn kết nối giao thông</p>
+          </div>
+          <div>
+            <img src="/bietthu/metro5.jpg" alt="Tuyến Metro số 5" className="w-full rounded-lg shadow-lg" />
+            <p className="text-center text-gray-600 italic mt-2">Tuyến Metro số 5 kết nối Nam An Khánh</p>
+          </div>
+          <div>
+            <img src="/bietthu/cactuyenduong.jpg" alt="Các tuyến đường kết nối" className="w-full rounded-lg shadow-lg" />
+            <p className="text-center text-gray-600 italic mt-2">Các tuyến đường kết nối chính</p>
           </div>
         </div>
       </section>
@@ -79,7 +128,7 @@ export default function Home() {
       <section className="max-w-5xl mx-auto px-4 py-10">
         <h2 className="text-3xl font-bold mb-6 text-green-700">Quy mô & phân khu (A/B)</h2>
         
-        <p className="text-gray-700 mb-6">Khu đô thị Nam An Khánh Sudico chia hai khu: khu A và khu B.</p>
+        <p className="text-gray-700 mb-6">Khu đô thị Nam An Khánh chia hai khu: khu A và khu B.</p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
           <div>
@@ -101,7 +150,7 @@ export default function Home() {
             <img src="https://bietthulienke.info/pl/img/26/nam-an-khanh_giai-doan-1.jpg" alt="Giai đoạn 1" className="w-full rounded-lg shadow-lg mb-4" />
             <p className="text-center text-gray-600 italic">Mặt bằng tổng thể Dự án Nam An Khánh khu A giai đoạn 1 (51ha)</p>
             
-            <p className="text-gray-700 mt-4"><strong>Tiến độ giai đoạn 1:</strong> Hiện Sudico đang làm hạ tầng tương đối nhanh (khách hàng có thể cảm nhận được khi ra thực địa hiện hữu)</p>
+            <p className="text-gray-700 mt-4"><strong>Tiến độ giai đoạn 1:</strong> Hiện SJ Group đang làm hạ tầng tương đối nhanh (khách hàng có thể cảm nhận được khi ra thực địa hiện hữu)</p>
           </div>
 
           <div className="mb-6">
@@ -109,12 +158,12 @@ export default function Home() {
             <img src="https://bietthulienke.info/pl/img/26/giai-doan-2-nam-an-khanh.jpg" alt="Giai đoạn 2" className="w-full rounded-lg shadow-lg mb-4" />
             <p className="text-center text-gray-600 italic">Mặt bằng tổng thể Dự án Nam An Khánh khu A giai đoạn 2 (106ha)</p>
             
-            <p className="text-gray-700 mt-4">Sudico tự xây một bên mặt hồ Lớn bao gồm các biệt thự, Shophouse và Vinhomes (Vinhomes Thăng Long) làm bên còn lại.</p>
+            <p className="text-gray-700 mt-4">SJ Group tự xây một bên mặt hồ Lớn bao gồm các biệt thự, Shophouse và Vinhomes (Vinhomes Thăng Long) làm bên còn lại.</p>
             
             <img src="https://bietthulienke.info/pl/img/26/du-an-nam-an-khanh-123.jpg" alt="Phân khu Vinhomes" className="w-full rounded-lg shadow-lg mb-4 mt-6" />
             <p className="text-center text-gray-600 italic">Dự án Nam An Khánh với Phân khu Vinhomes (Vinhomes Thăng Long) 24ha</p>
             
-            <p className="text-gray-700 mt-4"><strong>Tiến độ:</strong> Hiện tại Hồ Nam An Khánh đã làm xong ở cả 2 bên hồ cùng hạ tầng xung quanh. Bên Vingroup tháng 12/2016 nhận nhà còn bên Sudico giữa năm 2017 sẽ xong hoàn toàn hạ tầng toàn khu (bao gồm đường đi, cây xanh và công trình phụ trợ như trường học, nhà trẻ) và đến cuối năm 2017 đã bàn giao toàn bộ tiện ích cùng nhà ở</p>
+            <p className="text-gray-700 mt-4"><strong>Tiến độ:</strong> Hiện tại Hồ Nam An Khánh đã làm xong ở cả 2 bên hồ cùng hạ tầng xung quanh. Bên Vingroup tháng 12/2016 nhận nhà còn bên SJ Group giữa năm 2017 sẽ xong hoàn toàn hạ tầng toàn khu (bao gồm đường đi, cây xanh và công trình phụ trợ như trường học, nhà trẻ) và đến cuối năm 2017 đã bàn giao toàn bộ tiện ích cùng nhà ở</p>
           </div>
         </div>
 
@@ -151,12 +200,31 @@ export default function Home() {
       {/* Sản phẩm nổi bật */}
       <section className="max-w-5xl mx-auto px-4 py-10 bg-gray-50">
         <h2 className="text-3xl font-bold mb-6 text-blue-700">Sản phẩm nổi bật</h2>
+
+        <div className="space-y-8 mb-8">
+          <div>
+            <img src="/bietthu/bietthudonlap.jpg" alt="Biệt thự đơn lập" className="w-full h-auto rounded-lg shadow-lg hover:shadow-xl transition-shadow" />
+            <p className="text-center text-gray-600 italic mt-3 text-lg font-medium">Biệt thự đơn lập</p>
+          </div>
+          <div>
+            <img src="/bietthu/bietthusonglap.jpg" alt="Biệt thự song lập" className="w-full h-auto rounded-lg shadow-lg hover:shadow-xl transition-shadow" />
+            <p className="text-center text-gray-600 italic mt-3 text-lg font-medium">Biệt thự song lập</p>
+          </div>
+          <div>
+            <img src="/bietthu/maunhavuon.jpg" alt="Mẫu nhà vườn" className="w-full h-auto rounded-lg shadow-lg hover:shadow-xl transition-shadow" />
+            <p className="text-center text-gray-600 italic mt-3 text-lg font-medium">Mẫu nhà vườn</p>
+          </div>
+          <div>
+            <img src="/bietthu/nhalienke.jpg" alt="Nhà liền kề" className="w-full h-auto rounded-lg shadow-lg hover:shadow-xl transition-shadow" />
+            <p className="text-center text-gray-600 italic mt-3 text-lg font-medium">Nhà liền kề</p>
+          </div>
+        </div>
         
         {/* Biệt thự */}
         <div className="mb-10">
           <h3 className="text-2xl font-semibold mb-4 text-green-700">Biệt thự Nam An Khánh</h3>
           
-          <p className="text-gray-700 mb-4">Biệt thự Nam An Khánh là sản phẩm đắt giá của Sudico bởi khu này có lợi thế về giao thông vô cùng thuận tiện vì sản phẩm này chạy dọc theo Đại lộ Thăng Long trục giao thông trọng điểm Tây Hà Nội kết nối nội đô tới trung tâm công nghệ cao Hòa Lạc và các tỉnh Tây, Tây Bắc.</p>
+          <p className="text-gray-700 mb-4">Biệt thự Nam An Khánh là sản phẩm đắt giá của SJ Group bởi khu này có lợi thế về giao thông vô cùng thuận tiện vì sản phẩm này chạy dọc theo Đại lộ Thăng Long trục giao thông trọng điểm Tây Hà Nội kết nối nội đô tới trung tâm công nghệ cao Hòa Lạc và các tỉnh Tây, Tây Bắc.</p>
           
           <p className="text-gray-700 mb-4">Thiết kế biệt thự Nam An Khánh đa dạng với các dòng sản phẩm cao cấp, sang trọng:</p>
           
@@ -175,7 +243,7 @@ export default function Home() {
             </div>
           </div>
           
-          <p className="text-gray-700 mt-4">Biệt thự Nam An Khánh đa dạng về diện tích, thiết kế chính vì thế sản phẩm này là mặt hàng đắt giá của Sudico.</p>
+          <p className="text-gray-700 mt-4">Biệt thự Nam An Khánh đa dạng về diện tích, thiết kế chính vì thế sản phẩm này là mặt hàng đắt giá của SJ Group.</p>
         </div>
 
         {/* Shophouse */}
@@ -193,7 +261,7 @@ export default function Home() {
         <div className="mb-10">
           <h3 className="text-2xl font-semibold mb-4 text-green-700">Liền kề Nam An Khánh</h3>
           
-          <p className="text-gray-700 mb-4">Liền kề Nam An Khánh là một điểm đột phá mới của khu đô thị Sudico Nam An Khánh. Khu vực này có lợi thế giao thông vô cùng thuận tiện đó là nơi đây chỉ cách trung tâm hội nghị Quốc Gia có 4,5km và chạy dọc đến 2km trên tuyến đường Đại lộ Thăng Long chính vì điều này mà việc di chuyển đến trung tâm thành phố chỉ mất khoảng 20 – 25 phút đi xe. Điều này khiến cho nhiều khách hàng phải ưu ái lựa chọn khu liền kề này.</p>
+          <p className="text-gray-700 mb-4">Liền kề Nam An Khánh là một điểm đột phá mới của khu đô thị Nam An Khánh. Khu vực này có lợi thế giao thông vô cùng thuận tiện đó là nơi đây chỉ cách trung tâm hội nghị Quốc Gia có 4,5km và chạy dọc đến 2km trên tuyến đường Đại lộ Thăng Long chính vì điều này mà việc di chuyển đến trung tâm thành phố chỉ mất khoảng 20 – 25 phút đi xe. Điều này khiến cho nhiều khách hàng phải ưu ái lựa chọn khu liền kề này.</p>
           
           <img src="https://bietthulienke.info/pl/img/59/Li%E1%BB%81n_k%E1%BB%81_Nam_an_kh%C3%A1nh_0820251.jpg" alt="Liền kề Nam An Khánh" className="w-full rounded-lg shadow-lg mb-4" />
           
@@ -207,27 +275,14 @@ export default function Home() {
       <section className="max-w-5xl mx-auto px-4 py-10">
         <h2 className="text-3xl font-bold mb-6 text-green-700">Tiện ích nội khu & ngoại khu</h2>
         
-        <p className="text-gray-700 mb-6">Khu đô thị Nam An Khánh mang đến cho cư dân một cuộc sống mang phong cách nghỉ dưỡng – Xanh – An Toàn – Tiện nghi và tính cộng đồng cao. Với tỉ lệ xây dựng chỉ chiếm 35%, còn lại sẽ được sử dụng cho cây xanh, khu vui chơi và nhiều dịch vụ tiện ích khác.</p>
+        <div className="mb-8">
+          <img src="/bietthu/tienichchung.jpg" alt="Tiện ích chung khu đô thị Nam An Khánh" className="w-full rounded-lg shadow-lg mb-4" />
+          <p className="text-center text-gray-600 italic">Tiện ích chung khu đô thị Nam An Khánh</p>
+        </div>
         
-        <p className="text-gray-700 mb-6">Tại Khu đô thị Nam An Khánh, dù đi đến đâu quý cư dân cũng dễ dàng bắt gặp những hình ảnh hàng cây xanh mát, những con đường dạo bộ hiền hòa. Chắc chắn đây sẽ là những trải nghiệm không thể nào quên mà chỉ có khu đô thị này mới có thể mang lại.</p>
-        
-        <p className="text-gray-700 mb-6">Khu đô thị Nam An Khánh dành phần lớn không gian cho không gian cảnh quan và tiện ích. Khu đô thị Nam An Khánh được trang bị chuỗi dịch vụ tiện ích đa dạng, đồng bộ cùng hệ thống quản lý – vận hành thông minh, kiến tạo nên những trải nghiệm sống đích thực nhất:</p>
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <ul className="list-disc pl-6 space-y-2 text-gray-700">
-            <li>Trung tâm thương mại</li>
-            <li>Spa chăm sóc sắc đẹp</li>
-            <li>Phòng tập Gym – Yoga</li>
-            <li>Khu vui chơi ngoài trời</li>
-            <li>Phòng khám bệnh – nhà thuốc</li>
-          </ul>
-          <ul className="list-disc pl-6 space-y-2 text-gray-700">
-            <li>Nhà hàng ẩm thực cao cấp</li>
-            <li>Cafe ngoài trời</li>
-            <li>Nhà đỗ xe thông minh</li>
-            <li>Hệ thống an ninh 3 lớp</li>
-            <li>Hệ thống phòng cháy chữa cháy được trang bị hiện đại quanh khu đô thị</li>
-          </ul>
+        <div className="mb-8">
+          <img src="/bietthu/tienich.jpg" alt="Tiện ích Nam An Khánh" className="w-full rounded-lg shadow-lg mb-4" />
+          <p className="text-center text-gray-600 italic">Tiện ích Nam An Khánh</p>
         </div>
       </section>
 
@@ -237,7 +292,7 @@ export default function Home() {
         <div className="bg-blue-50 rounded-lg p-6 shadow flex flex-col md:flex-row md:items-center md:justify-center gap-4">
           <div className="flex flex-col items-center">
             <span className="text-lg font-semibold mb-1">Hotline tư vấn</span>
-            <a href="tel:0942993886" className="text-2xl font-bold text-green-700 hover:underline">0984 704 988</a>
+            <a href="tel:0942993886" className="text-2xl font-bold text-green-700 hover:underline">☏ 0984 704 988</a>
             <span className="text-sm text-gray-600 mt-1">Email: trangbinhduong2017@gmail.com</span>
           </div>
         </div>
@@ -245,7 +300,7 @@ export default function Home() {
 
       <footer className="w-full bg-gray-900 text-white py-6 mt-10">
         <div className="max-w-5xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-2">
-          <span className="text-sm">Dự án: Khu Đô Thị Nam An Khánh Sudico</span>
+          <span className="text-sm">Dự án: Khu Đô Thị Nam An Khánh</span>
         </div>
       </footer>
     </div>
