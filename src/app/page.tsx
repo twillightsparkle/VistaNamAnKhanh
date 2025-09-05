@@ -18,8 +18,15 @@ export default function Home() {
         <h2 className="text-3xl font-bold mb-6 text-green-700">Tổng quan Vista Nam An Khánh Hà Nội</h2>
         
         <div className="mb-8">
-          <img src="/bietthu/tongquankdt.jpg" alt="Tổng thể dự án Nam An Khánh" className="w-full rounded-lg shadow-lg mb-4" />
-          <p className="text-center text-gray-600 italic">Mô hình tổng thể Khu đô thị Nam An Khánh (Vista Nam An Khánh)</p>
+          <video 
+            src="/bietthu/videoduan.mp4" 
+            controls 
+            className="w-full rounded-lg shadow-lg mb-4"
+            poster="/bietthu/tongquankdt.jpg"
+          >
+            Your browser does not support the video tag.
+          </video>
+          <p className="text-center text-gray-600 italic">Video tổng thể Khu đô thị Nam An Khánh (Vista Nam An Khánh)</p>
         </div>
 
         <div className="mb-8 bg-yellow-50 rounded-lg p-6 shadow text-gray-900">
