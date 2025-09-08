@@ -28,7 +28,7 @@ export default function Home() {
             src="/videoduan.mp4" 
             controls 
             className="w-full rounded-lg shadow-lg mb-4"
-            poster="/bietthu/tongquankdt.jpg"
+            poster="/tongquankdt.jpg"
           >
             Your browser does not support the video tag.
           </video>
