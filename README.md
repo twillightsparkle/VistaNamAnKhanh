@@ -109,6 +109,6 @@ To customize the content:
 - **Project**: Khu Đô Thị Nam An Khánh Sudico
 
 ---
-Remember to change the image path to match the repo name
+Remember to change the image path to match the repo name, and the base path in next config
 
 Built with ❤️ using Next.js and Tailwind CSS
