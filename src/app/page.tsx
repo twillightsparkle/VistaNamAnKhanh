@@ -25,7 +25,7 @@ export default function Home() {
         
         <div className="mb-8">
           <video 
-            src="/videoduan.mp4" 
+            src="videoduan.mp4" 
             controls 
             className="w-full rounded-lg shadow-lg mb-4"
             poster="/tongquankdt.jpg"
@@ -62,17 +62,17 @@ export default function Home() {
           </ul>
           <div className="mt-8 space-y-6">
             <div className="w-full">
-              <img src="/tongmatbangANK.jpg" alt="Tổng mặt bằng Nam An Khánh" className="w-full rounded-lg shadow-lg" />
+              <img src="tongmatbangANK.jpg" alt="Tổng mặt bằng Nam An Khánh" className="w-full rounded-lg shadow-lg" />
               <p className="text-center text-gray-600 italic mt-3">Tổng mặt bằng Khu đô thị Vista Nam An Khánh</p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
-                <img src="/tongmatbangPalma.jpg" alt="Tổng mặt bằng Vista Palma" className="w-full rounded-lg shadow-lg" />
+                <img src="tongmatbangPalma.jpg" alt="Tổng mặt bằng Vista Palma" className="w-full rounded-lg shadow-lg" />
                 <p className="text-center text-gray-600 italic mt-3">Tổng mặt bằng Vista Palma</p>
               </div>
               <div>
-                <img src="/tongmatbangSerena.jpg" alt="Tổng mặt bằng Vista Serena" className="w-full rounded-lg shadow-lg" />
+                <img src="tongmatbangSerena.jpg" alt="Tổng mặt bằng Vista Serena" className="w-full rounded-lg shadow-lg" />
                 <p className="text-center text-gray-600 italic mt-3">Tổng mặt bằng Vista Serena</p>
               </div>
             </div>
@@ -119,15 +119,15 @@ export default function Home() {
 
         <div className="space-y-6 mb-8">
           <div>
-            <img src="/bandoketnoi.jpg" alt="Bản đồ kết nối Vista Nam An Khánh" className="w-full rounded-lg shadow-lg" />
+            <img src="bandoketnoi.jpg" alt="Bản đồ kết nối Vista Nam An Khánh" className="w-full rounded-lg shadow-lg" />
             <p className="text-center text-gray-600 italic mt-2">Bản đồ kết nối giao thông Vista Nam An Khánh</p>
           </div>
           <div>
-            <img src="/huongketnoigt.jpg" alt="Hướng kết nối giao thông" className="w-full rounded-lg shadow-lg" />
+            <img src="huongketnoigt.jpg" alt="Hướng kết nối giao thông" className="w-full rounded-lg shadow-lg" />
             <p className="text-center text-gray-600 italic mt-2">Hướng kết nối giao thông</p>
           </div>
           <div>
-            <img src="/metro5.jpg" alt="Tuyến Metro số 5" className="w-full rounded-lg shadow-lg" />
+            <img src="metro5.jpg" alt="Tuyến Metro số 5" className="w-full rounded-lg shadow-lg" />
             <p className="text-center text-gray-600 italic mt-2">Tuyến metro số 5 có 2 nhà ga An Khánh 1 và An Khánh 2 tại dự án</p>
           </div>
             <div>
@@ -255,19 +255,19 @@ export default function Home() {
 
         <div className="space-y-8 mb-8">
           <div>
-            <img src="/bietthudonlap.jpg" alt="Biệt thự đơn lập" className="w-full h-auto rounded-lg shadow-lg hover:shadow-xl transition-shadow" />
+            <img src="bietthudonlap.jpg" alt="Biệt thự đơn lập" className="w-full h-auto rounded-lg shadow-lg hover:shadow-xl transition-shadow" />
             <p className="text-center text-gray-600 italic mt-3 text-lg font-medium">Biệt thự đơn lập</p>
           </div>
           <div>
-            <img src="/bietthusonglap.jpg" alt="Biệt thự song lập" className="w-full h-auto rounded-lg shadow-lg hover:shadow-xl transition-shadow" />
+            <img src="bietthusonglap.jpg" alt="Biệt thự song lập" className="w-full h-auto rounded-lg shadow-lg hover:shadow-xl transition-shadow" />
             <p className="text-center text-gray-600 italic mt-3 text-lg font-medium">Biệt thự song lập</p>
           </div>
           <div>
-            <img src="/maunhavuon.jpg" alt="Mẫu nhà liền kề sân vườn" className="w-full h-auto rounded-lg shadow-lg hover:shadow-xl transition-shadow" />
+            <img src="maunhavuon.jpg" alt="Mẫu nhà liền kề sân vườn" className="w-full h-auto rounded-lg shadow-lg hover:shadow-xl transition-shadow" />
             <p className="text-center text-gray-600 italic mt-3 text-lg font-medium">Mẫu nhà liền kề sân vườn</p>
           </div>
           <div>
-            <img src="/nhalienke.jpg" alt="Nhà shophouse" className="w-full h-auto rounded-lg shadow-lg hover:shadow-xl transition-shadow" />
+            <img src="nhalienke.jpg" alt="Nhà shophouse" className="w-full h-auto rounded-lg shadow-lg hover:shadow-xl transition-shadow" />
             <p className="text-center text-gray-600 italic mt-3 text-lg font-medium">Nhà shophouse</p>
           </div>
         </div>
@@ -331,12 +331,12 @@ export default function Home() {
           <p className="text-center text-gray-600 italic">Savills - Đơn vị vận hành và quản lý dự án</p>
         </div>
         <div className="mb-8">
-          <img src="/tienichchung.jpg" alt="Tiện ích chung khu đô thị Vista Nam An Khánh" className="w-full rounded-lg shadow-lg mb-4" />
+          <img src="tienichchung.jpg" alt="Tiện ích chung khu đô thị Vista Nam An Khánh" className="w-full rounded-lg shadow-lg mb-4" />
           <p className="text-center text-gray-600 italic">Tiện ích chung khu đô thị Vista Nam An Khánh</p>
         </div>
         
         <div className="mb-8">
-          <img src="/tienich.jpg" alt="Tiện ích Vista Nam An Khánh" className="w-full rounded-lg shadow-lg mb-4" />
+          <img src="tienich.jpg" alt="Tiện ích Vista Nam An Khánh" className="w-full rounded-lg shadow-lg mb-4" />
           <p className="text-center text-gray-600 italic">Tiện ích Vista Nam An Khánh</p>
         </div>
       </section>
@@ -346,7 +346,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-6 text-green-700">Chính sách bán hàng dự kiến</h2>
           
           <div className="mb-8">
-            <img src="/chinhsachbanhang.jpg" alt="Chính sách bán hàng Vista Nam An Khánh" className="w-full rounded-lg shadow-lg" />
+            <img src="chinhsachbanhang.jpg" alt="Chính sách bán hàng Vista Nam An Khánh" className="w-full rounded-lg shadow-lg" />
           </div>
         </section>
 
