@@ -111,4 +111,4 @@ To customize the content:
 ---
 Remember to change the image path to match the repo name, and the base path in next config
 
-Built with ❤️ using Next.js and Tailwind CSS
+Built with ❤️ using Next.js and Tailwind CSS.
