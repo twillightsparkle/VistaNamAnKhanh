@@ -12,7 +12,7 @@ export default function Home() {
           </h1>
         </div>
         <div className="absolute left-2 top-2">
-          <img src="/vistalogo.png" alt="Vista Logo" className="h-8 sm:h-12 w-auto" />
+          <img src="/vistalogo.png" alt="Vista Logo" className="h-8 sm:h-28 w-auto" />
         </div>
         {/* Phone number positioned bottom-right */}
         <div className="absolute bottom-2 right-4 text-sm sm:text-base font-semibold">
